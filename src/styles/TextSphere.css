@@ -1,0 +1,28 @@
+.text-sphere {
+    /* position: relative; */
+    /* top : 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 3px solid red;
+  }
+  
+  .tagcloud{
+    display: inline-block;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    letter-spacing: 0.0635em;
+    font-size: 1.3em;
+  }
+  
+  .tagcloud--item{
+    color: rgb(31,229,222);
+    text-transform: uppercase;
+  }
+  
+  .tagcloud--item:hover{
+    color: red;
+  }
+  

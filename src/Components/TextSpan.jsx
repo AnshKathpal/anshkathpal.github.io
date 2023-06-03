@@ -1,5 +1,6 @@
 import React from "react";
 import { color, motion, useAnimationControls } from "framer-motion";
+import styled from "styled-components";
 
 export const TextSpan = ({ children }) => {
   const controls = useAnimationControls();
@@ -32,13 +33,22 @@ export const TextSpan = ({ children }) => {
   }
 
   return (
+    
     <motion.span
       style={{ display: "inline-block" }}
       animate={controls}
       onMouseOver={() => ruubberBand()}
       onMouseOut = {() => colorChange()}
     >
+      {/* <Mirror> */}
       {children}
+{/* </Mirror> */}
     </motion.span>
   );
 };
+
+
+const Mirror = styled.span`
+  -webkit-box-reflect: below;
+  display: inline-block;
+`

@@ -1,3 +1,4 @@
+import { Text } from "@chakra-ui/react";
 import { useEffect, useRef } from "react";
 import TagCloud from "TagCloud";
 import "../styles/TextSphere.css";
@@ -23,7 +24,7 @@ export const TextSphere = () => {
       "GitHub",
     ];
     const options = {
-      radius: 300,
+      radius: 260,
       maxSpeed: "fast",
       initSpeed: "fast",
       keep: true,
@@ -39,6 +40,7 @@ export const TextSphere = () => {
   return (
     <>
       <div className="text-sphere">
+        {/* <Text fontFamily="Mogra, cursive" fontSize="20px" >Tech Stacks</Text> */}
         {<span className="tagcloud" ref={containerRef}></span>}
       </div>
     </>

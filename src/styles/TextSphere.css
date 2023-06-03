@@ -1,11 +1,14 @@
 .text-sphere {
     /* position: relative; */
     /* top : 0; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: black;
-    border: 3px solid red;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    width: max-content;
+    height: max-content;
+    right: 60%;
+    bottom: 10%;
   }
   
   .tagcloud{
@@ -23,6 +26,6 @@
   }
   
   .tagcloud--item:hover{
-    color: red;
+    color: white;
   }
   

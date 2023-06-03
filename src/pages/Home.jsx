@@ -45,7 +45,6 @@ export const Home = () => {
               ml="60px"
               fontSize="60px"
             >
-              {/* Hi, <br /> I'm Ansh Kathpal <br /> A Full Stack Web Developer */}
               {sentence1.map((letter, index) => {
                 return (
                   <TextSpan key={index}>

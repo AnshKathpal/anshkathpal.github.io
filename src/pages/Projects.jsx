@@ -1,4 +1,4 @@
-import { Container, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
+import { Box, Container, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
 import React from "react";
 import tt1 from "../Images/TT1.png";
 import tt2 from "../Images/TT2.png";
@@ -28,7 +28,7 @@ export const Projects = () => {
       >
         <GridItem
           borderRadius="10%"
-          border="1px solid green"
+          // border="1px solid green"
           width="100%"
           height="600px"
           bg="rgb(24,25,35)"
@@ -40,7 +40,7 @@ export const Projects = () => {
           >
             <GridItem
               //  border="1px solid pink"
-              border="1px solid white"
+              // border="1px solid white"
               className="box"
             >
               <Flex
@@ -71,9 +71,13 @@ export const Projects = () => {
                 />
               </Flex>
             </GridItem>
-            <GridItem border="1px solid pink">
-              <Flex border="1px solid green" flexDirection="column">
-                <Text color="white">HealthIV</Text>
+            <GridItem 
+            // border="1px solid blue"
+            >
+              <Flex
+              //  border="1px solid green" 
+               flexDirection="column" justifyContent="center" height="100%" gap={30} >
+                <Text color="white" fontFamily="'Mogra', cursive" fontSize="30px"  >HealthIV</Text>
                 <Text color="white">
                   HealthIV, the digital healthcare company focused on improving
                   home health outcomes through technology, now brings its
@@ -86,11 +90,11 @@ export const Projects = () => {
                   doctors, pharmacists, and home healthcare workers.
                 </Text>
                 <Flex
-                  border="1px solid white"
+                  // border="1px solid white"
                   height="50px"
                   alignItems="center"
                   gap={4}
-                  justifyContent="flex-start"
+                  justifyContent="center"
                 >
                   <img
                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADtklEQVR4nO3ZW2xMQRgH8L+oJogHxAPxghc8iMsDbyWoiHQ7s7UlrkFtUQ0pIUKIS0IqEtdQQVwiLhFEJG4JD3WL4EG0IajbnnO2u92DaovSjmxX9HycadeZYRPZL5lkk8k5Z357vpn5dhZIRzrS8f+GwVFncohUNoPho3cAw4uUAzieqwDupBpgctz2DDA5zqsOQBT/eWuYR+5xTgWwPxWAujnkHmWeAQbHxlQAameRSbxBBVCcCsD7GQSw2DPAYshPBcCe1nq9xRHwDsjFaNnArBndhW3b7bakYtNAAohOdTyLIcszwGQYJP12J2cIOxbTA1jViwCqA44U8mOgZ0CIoWdb6WFbIXVAc7MQSzIIwMprfcabAHp4Bgigg8HQKAPEqirVAfU2GXxzEZnAjfExQCVMDkMKqLhLBmsV9lOexN8WkvwPKQ2+BcDwUAq4f5UCSoYrAxoLCeCBDsBlGaCm/AwBhNeOUwZ8mk9S6JIywGA4IgVcOUQA1aX5yoD6uQ4Ax2EdgK0yQPT8dvVJfGM7AXycTQClygCTY7kUcGKDOuDSegL4MNPxDD+W6QDMkgEih5arA86WEMC76QQwUxlg+DFBCtgdVAccn0sANY4ywmDIVgaE8jDMSxEnncT3jlHAAT/pj+S3XhvKxVBlwGsf+mgFPL5IAbvGkv6wo4yIcPRWBogsZBgMTW6Dq16dRdIlevNc+4CqWxRQOoL0O1agZhFEJ+gIk6PGDRBeMoQAah6Vtw8IV1LA+gE/+5oWkWuj0BUGR6UbwJrXlwBioZcivC5bWIHM3wFLM4XYN0mIhnfSUvrrAvIGKnQCbrjm+NQuritP7G2ViF7YJcJrxgixJ1uIOwcTVadbLO30E/A5SFag6zoBp2ST1I5Y3pfRL3UkvRoKSCF3UhvAZNgp3Y3PbmtJnT8GxFOpfK/8OIVhh07AmjaXy7yOIrxilIic3ixir57KAfE0undUiLKcxJwo/uU4xVEHmQyrtQEMhvlJr/0OjP3qiRD1sTYHLWTHKRwFOgG5njayyRm//d5N9jglxOHTBghzjNK2E8t+Si6CiDhOIywfRuoD+NH/bwAaCxP1f3SKyx6Tg37aANZ4dNUBaCqC+FSQKJmdNY/ptkmOR1fojJa3wBA0OE4bHLXJAr4EE4e1UUeV6doYGkyGawbHStOHwfib8SaAziE/xpkMW0yO+17fjpH4B6gsfv4Z9aEbUhVJv51/+S2rvB2TYeKP3ftZS4t/ZpgY7/N843SkIx3/Z3wHrTGmPWk4PzUAAAAASUVORK5CYII="
@@ -113,6 +117,30 @@ export const Projects = () => {
                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEnklEQVR4nO1ZTYwVRRAeWcFooib+JBoxJuQtTveTmIgQPBhOelHgZDB4YA9evJusITF7EMVw8CDq+kJYNctUjc1O9WOBvRIB48kYCcaLrhFIFGTxYow/wJqaN/B63rx9090zi5q8SjrZ7MxUfdVdXfVVvSAYylCGUl2UGgkpekpo3CU0JILgG0F4WWj8K12ElyXhmfSZxl1hEm8KJiZWBP+2NDU+LAjelgTnpcZFlyU0nhMa9qxLplffdOANpe4XGlpCw5+uwIuOAOuYXDsb3XdTwEuNO4SGhQIQwp8FwZQk2PlYG55kQFKpVbz4b/4fPxMEH/G7fZy5FCbxi8sGfH2rtVIS7i8YJjjR1NGWzceP32qri9+VbdgqNJ7ssxEfsq16wc/O3iE1zPXE8PdhAs9V1d0kfF4SzOc3BY+xzfp2vggeHm2376zFQBAErEtqwJ7TOFrLSfQJmzeq6YM3ZVvJwoPFxVtYd4+tySq2ApnEL9UKXsNeDo/B72DOCaFxe5VUuWCGjS9w3l1B+I4kuBYm8RNl70qC2LgPv4T0yb3ONjnPmxfWO+Y74N/Ncn5ifSfIuNiE77tXWKNIeWebNK7hg0zPVXEYmvYYoi1Gqv7DqWKn9MDI817gJyZW5E6RIHJVITScMir2HruvlBoxuQ3vhA94qfGAAf5vMRONuqqRbdhq6DhrRQCZVZr0wKXCpqLUiND4cU/2OhB4yPpWa6XQeKEbDdHG0o+Y7hpeT7mDh4O9ZE3MHHzExwGW3GYQvhaUCWcKI/53Bi78plhNOYO9F1QQqXHMiIhD5R8Qnrn+ATNI66MmPLQE7+cdHB+0Qoo2L6W7mcQbjBM4XQrGLF42HD2lzITk3Q8QfiWVemBQQTWLmo0D3SZFqVUW4LUveEnw2Rql7h5kozE3d5tZD2pzgJ8JwsMVdn52tVK3l+HxccAqhELCtWWx3VnwZRE8TNmm54ZrCPlc4iWdTKYfZKN5B2AvUwxbHU2PS+yVRpfgQd1GiOCa0PjqsqdRUaWQmXoIXzF2/Uqoo5e99OhcVR8v/YCHTpWoBBudiUYF4W8Z+N+Z01RoZy/e4GVJvMGSReK5G147Gs8q8hfZBvwqND4deIog3GZEw4/W0zymrkYlPeliVGp8PeNAPzWT+HFf8CyC4HMDx1uBrXDzYNYDW0rNWaszD4Xv1s1Ea4IKIg0qzfl/9Ih6yE2BxklDwXxZS8lFSWj8towa2EhjbvouSfCDwWj3OStJR4MaLxmZBAfl77TvtaAGpbKYjlc+NexelErd46WLZ5U2Y5UwgWeYE9lQgzKRGnbn+VL8QiWFPKssONFzEk3CZ33SbZ/Ct7vOXsIc6h7rYZFxnaPFBsd8LmzSuD9SeVNyw92iE/NeDX+/bEPdC3sdfG3D3XxVNDJT19gpBuEyiM06uG1mnjfDprad7yc8qywyzNTwhYy3jPX7gSNjlWOdd7r0QJrZpuqFtRWeVfK4jwuMdzdmFCmhYZ93qqwiXB2ZdvDQyb0jg7NMD5wr7LIIT+Io2shzm3Q6QXiaO7t0JtRZC4Lw62xyMZ6yyv/Cz6xDGUrw/5d/AJWWyz/FX3s8AAAAAElFTkSuQmCC"
                     alt=""
                   />
+                </Flex>
+                <Flex justifyContent="center" gap="10%" alignItems="center"
+                //  border="1px solid white" 
+                 >
+                  <Text >
+                    Visit The Website
+                  </Text>
+                  <Box
+                  //  border="1px solid red"
+                    width="7%" >
+                    <img src="https://www.svgrepo.com/show/331495/netlify.svg" alt="" />
+                    </Box>
+                </Flex>
+                <Flex justifyContent="center" gap="10%" alignItems="center"
+                //  border="1px solid white" 
+                 >
+                  <Text >
+                    Visit GitHub
+                  </Text>
+                  <Box 
+                  //  border="1px solid red"
+                    width="7%" >
+                    <img style={{borderRadius : "50%"}} src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="" />
+                    </Box>
                 </Flex>
               </Flex>
             </GridItem>

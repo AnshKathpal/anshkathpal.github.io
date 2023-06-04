@@ -6,14 +6,14 @@ import myImg from "../Images/myImg.png";
 export const About = () => {
   return (
     <Container
-      id="about"
-      color="white"
+      color="black"
       bg="black"
       // border="2px solid blue"
       h="92vh"
       maxW="100%"
+      id="about" className="about section"
     >
-      <Text fontSize="40px" fontFamily="'Mogra', cursive">
+      <Text fontSize="40px" color="white" fontFamily="'Mogra', cursive">
         Let me help you know more...
       </Text>
       <Flex
@@ -43,6 +43,7 @@ export const About = () => {
           data-aos="fade-down"
           // border="1px solid white"
           gap={10}
+          color = "white"
         >
           <Text>
             A passionate and enthusiastic full stack web developer, eager to

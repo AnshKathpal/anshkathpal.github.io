@@ -22,12 +22,11 @@ export const Home = () => {
   const sentence3 = "A Passionate Full Stack Web Developer".split("");
 
   return (
-    <Container
+    <Container id="home"
       display="flex"
       justifyContent="flex-start"
       alignItems="center"
       textAlign="left"
-      id="home"
       color="white"
       bg="black"
       h="92vh"

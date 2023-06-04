@@ -110,7 +110,7 @@ export function Navbar() {
   };
 
   return (
-    <NavDiv>
+    <NavDiv id="nav-menu" >
       <Flex
         gap="30px"
         alignItems="center"

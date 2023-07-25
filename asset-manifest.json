@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d55016e4.css",
-    "main.js": "/static/js/main.96ab787d.js",
+    "main.js": "/static/js/main.2d34d7a4.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Tiny2.png": "/static/media/Tiny2.c070f7e281618bfa101a.png",
     "static/media/Tiny1.png": "/static/media/Tiny1.25903156f30b7997d937.png",
@@ -11,17 +11,18 @@
     "static/media/hv1.png": "/static/media/hv1.f31e5a78dc34690ceaba.png",
     "static/media/hv2.png": "/static/media/hv2.c504a95c00756d31525f.png",
     "static/media/Ansh-Kathpal-Resume.pdf": "/static/media/Ansh-Kathpal-Resume.d035fc33c2086779c964.pdf",
+    "static/media/phone.png": "/static/media/phone.9df0627a1cd26d03fb90.png",
     "static/media/img2.png": "/static/media/img2.5d3ae0476babdc718f0c.png",
     "static/media/globeWhite.png": "/static/media/globeWhite.2c8d686127fad4e072ad.png",
     "static/media/paintBrush.svg": "/static/media/paintBrush.86a0c8c2fda2bb43cdc47b806230991a.svg",
     "index.html": "/index.html",
     "static/media/html5.svg": "/static/media/html5.655fc5b2390f611ade1bcfe511a0f825.svg",
     "main.d55016e4.css.map": "/static/css/main.d55016e4.css.map",
-    "main.96ab787d.js.map": "/static/js/main.96ab787d.js.map",
+    "main.2d34d7a4.js.map": "/static/js/main.2d34d7a4.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d55016e4.css",
-    "static/js/main.96ab787d.js"
+    "static/js/main.2d34d7a4.js"
   ]
 }

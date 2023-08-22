@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.93c33603.css",
-    "main.js": "/static/js/main.dfb3e8ee.js",
+    "main.js": "/static/js/main.69d5fe97.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/js-vid-trim.mp4": "/static/media/js-vid-trim.b147b4aea7e4794b38fd.mp4",
     "static/media/skilled-vid.mp4": "/static/media/skilled-vid.013070bd1504fb3ca3dc.mp4",
@@ -17,7 +17,7 @@
     "static/media/js-img.png": "/static/media/js-img.c7b21f3806396274651e.png",
     "static/media/newcath.jpg": "/static/media/newcath.d521574357531e4653c2.jpg",
     "static/media/hv2.png": "/static/media/hv2.c504a95c00756d31525f.png",
-    "static/media/Ansh-Kathpal-Resume.pdf": "/static/media/Ansh-Kathpal-Resume.d035fc33c2086779c964.pdf",
+    "static/media/Ansh-Kathpal-Resume.pdf": "/static/media/Ansh-Kathpal-Resume.78e98d8d594280d86f1a.pdf",
     "static/media/phone.png": "/static/media/phone.9df0627a1cd26d03fb90.png",
     "static/media/img2.png": "/static/media/img2.5d3ae0476babdc718f0c.png",
     "static/media/paintRoller.webp": "/static/media/paintRoller.030ce3eef91cd62780a7.webp",
@@ -28,11 +28,11 @@
     "index.html": "/index.html",
     "static/media/html5.svg": "/static/media/html5.655fc5b2390f611ade1bcfe511a0f825.svg",
     "main.93c33603.css.map": "/static/css/main.93c33603.css.map",
-    "main.dfb3e8ee.js.map": "/static/js/main.dfb3e8ee.js.map",
+    "main.69d5fe97.js.map": "/static/js/main.69d5fe97.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93c33603.css",
-    "static/js/main.dfb3e8ee.js"
+    "static/js/main.69d5fe97.js"
   ]
 }

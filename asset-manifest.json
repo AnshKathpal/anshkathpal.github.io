@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8a0a17e0.css",
-    "main.js": "/static/js/main.c8f95232.js",
+    "main.js": "/static/js/main.5e5905f6.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/js-vid-trim.mp4": "/static/media/js-vid-trim.b147b4aea7e4794b38fd.mp4",
     "static/media/skilled-vid.mp4": "/static/media/skilled-vid.013070bd1504fb3ca3dc.mp4",
@@ -16,9 +16,9 @@
     "static/media/skilled-img.png": "/static/media/skilled-img.bd148f77fd95b40613aa.png",
     "static/media/hv1.png": "/static/media/hv1.f31e5a78dc34690ceaba.png",
     "static/media/js-img.png": "/static/media/js-img.c7b21f3806396274651e.png",
+    "static/media/Ansh-Kathpal-Resume.pdf": "/static/media/Ansh-Kathpal-Resume.1ce7b926631b989f9e5a.pdf",
     "static/media/newcath.jpg": "/static/media/newcath.d521574357531e4653c2.jpg",
     "static/media/hv2.png": "/static/media/hv2.c504a95c00756d31525f.png",
-    "static/media/Ansh-Kathpal-Resume.pdf": "/static/media/Ansh-Kathpal-Resume.6495b20d477e5e93b251.pdf",
     "static/media/cafe2.png": "/static/media/cafe2.309340968244249253d5.png",
     "static/media/postman.png": "/static/media/postman.7fedeaff79947348538e.png",
     "static/media/phone.png": "/static/media/phone.9df0627a1cd26d03fb90.png",
@@ -46,11 +46,11 @@
     "index.html": "/index.html",
     "static/media/html5.svg": "/static/media/html5.655fc5b2390f611ade1bcfe511a0f825.svg",
     "main.8a0a17e0.css.map": "/static/css/main.8a0a17e0.css.map",
-    "main.c8f95232.js.map": "/static/js/main.c8f95232.js.map",
+    "main.5e5905f6.js.map": "/static/js/main.5e5905f6.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a0a17e0.css",
-    "static/js/main.c8f95232.js"
+    "static/js/main.5e5905f6.js"
   ]
 }
